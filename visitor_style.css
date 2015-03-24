@@ -1,0 +1,85 @@
+	/* for the entire webpage */
+* {
+margin: 0px;
+padding: 0px;
+}
+	/* HEADINGS */
+h1 { 
+font: bold 30px Cambria; }
+h2 { 
+font: bold 25px Cambria; }
+h3 { 
+font: bold 20px Cambria; }
+h4 { 
+font: bold 15px Cambria; }
+
+#mid{
+	text-align:left;
+}
+
+header,footer{					/* Styles common to header and footer */
+	clear:both;
+	text-align:center;
+	background:#37868b;
+	color:#e5e5e5;
+}
+
+header{							/* Styles exclusive to header */
+	border:2px solid black;
+	padding:20px;
+}
+
+footer{							/* Styles exclusive to footer */
+	border-top:2px solid black;
+	padding:10px;
+}
+
+body{ 							/* body */
+	background:#FFFFFF;
+}
+
+#bigWrapper{					/* Style for the entire body */
+	border:1px solid black;
+	width:100%;	/* 100% or 1000px */
+	margin:20px auto;
+	text-align:center;
+	background:#e5e5e5;
+	color:#37868b;
+}
+
+nav{								/* Style the navigation bar */
+	background:#24466c;
+	color:white;
+	text-align:center;
+}
+nav li{							/* Items on the navigation bar */
+	display:inline-block;
+	list-style:none;
+	padding:5px;
+	font:20px Calibri;
+}
+
+#current{
+	font:20px Calibri;
+	color:yellow;
+}
+
+input,select{						/* Style for the text boxes and drop down list */
+	font:20px Cambria;
+	background:white;
+	color:#37868b;
+}
+button{
+	text-align:center;
+	font:20px Cambria;
+	background:#37868b;
+	color:#e5e5e5;
+}
+#registrationForm{
+	text-align:left;
+	margin-left:35%;
+}
+p{								/* Style for the paragraph */
+	color:#37868b;
+	font:20px Calibri;
+}
